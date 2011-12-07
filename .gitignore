@@ -10,3 +10,5 @@ gen
 bin
 .DS_Store
 seed.txt
+gen-external-apklibs
+
