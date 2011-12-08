@@ -2,6 +2,7 @@ package com.jayway.maven.plugins.android.generation2.samples.libraryprojects.mai
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.widget.TextView;
 import com.jayway.maven.plugins.android.generation2.samples.libraryprojects.lib1.Lib1Class;
 import com.jayway.maven.plugins.android.generation2.samples.libraryprojects.lib2.Lib2Class;
@@ -10,7 +11,7 @@ import org.apache.commons.io.IOUtils;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class MainActivity extends Activity
+public class MainActivity extends FragmentActivity
 {
     /** Called when the activity is first created. */
     @Override
